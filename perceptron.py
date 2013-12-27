@@ -1,6 +1,6 @@
 """ This is a class to implement the perceptron artificial nueron """
 class Perceptron:
-
+	""" Constructor """
 	def __init__(self, w_v=[0]):
 		self.weight_vector = w_v
 	""" Geter for weight vector """
