@@ -26,7 +26,9 @@ class Perceptron:
 	def fire_fnc(self,input_vector):
 		suma = 0
 		for index in range(len(input_vector)):
-			suma += self.weight_vector[index]*input_vector[index]
+			#print input_vector[index]
+			#raw_input()
+			suma += self.weight_vector[index]*float(input_vector[index])
 		return self.step_fnc(suma)
 
 	def fire(self,input_vector):

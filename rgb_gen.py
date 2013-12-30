@@ -1,8 +1,8 @@
 import random
 
-foo = open("rgb.csv","w")
+foo = open("rgb_test.csv","w")
 
-for i in range(0,500):
+for i in range(0,20000):
 	R=random.randrange(0,255,1)
 	G=random.randrange(0,255,1)
 	B=random.randrange(0,255,1)
