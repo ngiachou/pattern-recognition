@@ -7,7 +7,7 @@ class Trainers:
 		self.wrong_classified_vectors = ["dummy"]
 
 	def gradientDescent(self, perceptron):
-		print "Begin training..."
+		print ("Begin training...")
 		last = len(self.data_vectors[0])-1
 		t = 0
 		# As long we have wrong classified vectors training is not complete
